@@ -66,12 +66,12 @@ public class Main {
         System.out.println("");
 
         System.out.println("Задача 6");
-        short BananasGramm = 5 * 80;
-        short MilkGramm = 105 / 100 * 200;
+        short bananasGramm = 5 * 80;
+        short milkGramm = 105 / 100 * 200;
         short iceCream = 2 * 100;
         short eggs = 4 * 70;
 
-        short weightInGramms = (short) (BananasGramm + MilkGramm + iceCream + eggs);
+        short weightInGramms = (short) (bananasGramm + milkGramm + iceCream + eggs);
         float weightInKg = (float) (weightInGramms / 1000);
 
         System.out.println("Вес в граммах " + weightInGramms);
@@ -90,27 +90,27 @@ public class Main {
         System.out.println("");
 
         System.out.println("Задача 8");
-        int MashaSalaryPerMonth = 67760;
-        int DenisSalaryPerMonth = 83690;
-        int KristinaSalaryPerMonth = 76230;
-        int MashaYearSalary = MashaSalaryPerMonth * 12;
-        int DenisYearSalary = DenisSalaryPerMonth * 12;
-        int KristinaYearSalary = KristinaSalaryPerMonth * 12;
+        int mashaSalaryPerMonth = 67760;
+        int denisSalaryPerMonth = 83690;
+        int kristinaSalaryPerMonth = 76230;
+        int mashaYearSalary = mashaSalaryPerMonth * 12;
+        int denisYearSalary = denisSalaryPerMonth * 12;
+        int kristinaYearSalary = kristinaSalaryPerMonth * 12;
 
-        int MashaNewMonthSalary = (int) (MashaSalaryPerMonth * 1.1);
-        int DenisNewMonthSalary = (int) (DenisSalaryPerMonth *1.1);
-        int KristinaNewMonthSalary = (int) (KristinaSalaryPerMonth * 1.1);
-        int MashaNewYearSalary = MashaNewMonthSalary * 12;
-        int DenisNewYearSalary = DenisNewMonthSalary * 12;
-        int KristinaNewYearSalary = KristinaNewMonthSalary * 12;
+        int mashaNewMonthSalary = (int) (mashaSalaryPerMonth * 1.1);
+        int denisNewMonthSalary = (int) (denisSalaryPerMonth *1.1);
+        int kristinaNewMonthSalary = (int) (kristinaSalaryPerMonth * 1.1);
+        int mashaNewYearSalary = mashaNewMonthSalary * 12;
+        int denisNewYearSalary = denisNewMonthSalary * 12;
+        int kristinaNewYearSalary = kristinaNewMonthSalary * 12;
 
-        int diffMashaYearSalary = MashaNewYearSalary - MashaYearSalary;
-        int diffDenisYearSalary = DenisNewYearSalary - DenisYearSalary;
-        int diffKristinaYearSalary = KristinaNewYearSalary - KristinaYearSalary;
+        int diffMashaYearSalary = mashaNewYearSalary - mashaYearSalary;
+        int diffDenisYearSalary = denisNewYearSalary - denisYearSalary;
+        int diffKristinaYearSalary = kristinaNewYearSalary - kristinaYearSalary;
 
-        System.out.println("Маша теперь получает " + MashaNewMonthSalary + " рублей. Годовой доход вырос на " + diffMashaYearSalary + " рублей");
-        System.out.println("Денис теперь получает " + DenisNewMonthSalary + " рублей. Годовой доход вырос на " + diffDenisYearSalary + " рублей");
-        System.out.println("Кристина теперь получает " + KristinaNewMonthSalary + " рублей. Годовой доход вырос на " + diffKristinaYearSalary + " рублей");
+        System.out.println("Маша теперь получает " + mashaNewMonthSalary + " рублей. Годовой доход вырос на " + diffMashaYearSalary + " рублей");
+        System.out.println("Денис теперь получает " + denisNewMonthSalary + " рублей. Годовой доход вырос на " + diffDenisYearSalary + " рублей");
+        System.out.println("Кристина теперь получает " + kristinaNewMonthSalary + " рублей. Годовой доход вырос на " + diffKristinaYearSalary + " рублей");
 
     }
 }
